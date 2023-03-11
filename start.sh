@@ -8,7 +8,7 @@ cd ${BABELFISH_HOME}/bin
 USERNAME=babelfish_user
 PASSWORD=12345678
 DATABASE=babelfish_db
-MIGRATION_MODE=single-db
+MIGRATION_MODE=multi-db
 
 # Populate argument values from command
 while getopts u:p:d:m: flag; do
